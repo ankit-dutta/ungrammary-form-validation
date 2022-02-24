@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Domine:wght@600&family=Inter&family=Oswald&family=Passion+One&family=Permanent+Marker&display=swap');
+
+
+body{
+
+    background:
+    linear-gradient(to top,rgba(255,255,255,1),#f1fcfe),
+    linear-gradient(to right,black,white);
+}
+
+.nav-container{
+    margin-left:15%;
+    font-family: 'Abril Fatface';
+}
+.nav-heading{
+    font-weight: 500;
+    font-size: 25px;
+}
+.navbar-brand {
+   
+    /* color: red; */
+    
+    font-size: 25px;
+
+}
+li{
+    color:red;
+    font-size: 18px;
+}
+
+.main-container{
+    display:flex;
+     justify-content: center;
+    /* align-items: center; */
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 3%;
+   
+    width: 97vw;
+    height: 120vh;
+    
+}
+
+.img-container{
+    text-align: center;
+    margin-top: 3%;
+    width: 46%;
+    height: 40%;
+}
+img{
+    width: 70%;
+    height: 100%;
+
+}
+
+
+
+#username{
+ color: #F74F58;
+ font-size: 12px;
+ float: right;
+ font-weight: normal;
+ font-family: 'Roboto', sans-serif;
+}
+
+#phoneno{
+    color: #F74F58;
+    font-size: 12px;
+    float: right;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+   }
+
+   #emailid{
+    color: #F74F58;
+    font-size: 12px;
+    float: right;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+   }
+
+.container{
+    width: 50%;
+    height: 70%;
+   border:1px solid red;
+/* align-items: center; */
+}
+
+
+.form-text{
+    margin-bottom:5% ;
+    font-family: 'Poppins', sans-serif;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: medium;
+    color: #3A526C;
+}
+
+.submit-btn{
+    opacity: 1;
+    color: #FFFFFF;
+    background: #682bad;
+    padding: 5px;
+    /* border: none; */
+    width: 87px;
+    border-radius: 7px;
+    font-family: 'Poppins', sans-serif;
+
+}
+.contact{
+    margin-left: 30%;
+}
+
+/* .phone-style{
+   position: relative;
+  top: 20px;
+  left: 1%; */
+  
+  /* background-color: #FFFFFF; */
+  /* background:
+  linear-gradient(to top,rgba(255,255,255,1),#f1fcfe),
+  linear-gradient(to right,black,white);
+  color:#3A526C ;
+}
+.username-style{
+    position: relative;
+    top: 20px;
+    left: 1%;
+   
+    background:
+    linear-gradient(to top,rgba(255,255,255,1),#f1fcfe),
+    linear-gradient(to right,black,white);
+    color:#3A526C ;
+} */
+
+.label-style{
+    position: relative;
+    top: 20px;
+    left: 1%;
+   font-size: 12px;
+    background:
+    linear-gradient(to top,rgba(255,255,255,1),#f1fcfe),
+    linear-gradient(to right,black,white);
+    color:#3A526C ;
+}
